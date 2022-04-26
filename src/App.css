@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+/*******************************      Register page Styling        ****************************/
+
+.registerUser {
+    width: 40%;
+    margin: 5em auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.registerUser h2 {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.registerUserForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.registerUserForm label {
+
+    margin-bottom: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.registerUserForm input {
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.registerUserForm button {
+    padding: 0.5em 0em;
+    width: 30%;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+/*************************************   Login Page Styling    ******************************/
+
+.loginPage {
+    width: 40%;
+    margin: 2em auto;
+}
+
+.loginPage h2 {
+    text-align: center;
+}
+
+.loginPage form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage form label {
+    margin-bottom: 0.5em;
+}
+
+.loginPage form input {
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+}
+
+.loginPage form button {
+    padding: 0.5em 0em;
+    width: 30%;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+.ancherTag {
+    background-color: rgb(47, 119, 45);
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.loginMsg {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+}
+
+/****************************       userDetails    *****************************/
+
+.userDetails {
+
+    width: 40%;
+    margin: 3em auto;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.userDetails tr,
+td {
+    border: 1px solid black;
+}
+
+.userDetails table {
+    margin: 0 auto;
+}
+
+.userDetails td {
+    padding: 0.5em 1em;
+}
+
+.updateBtn {
+    border: none;
+    background-color: rgb(255, 166, 0);
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2em auto;
+    cursor: pointer;
+}
+
+.logoutBtn {
+    border: none;
+    display: block;
+    background-color: rgb(255, 1, 1);
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: -1em auto 1em auto;
+    cursor: pointer;
+    color: rgb(15, 12, 12);
+}
+
+/****************************************       UpdateDetails              ***********************/
+
+.updateDetails h2 {
+    text-align: center;
+}
+
+.updateDetailsForm {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.updateDetailsForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.updateDetailsForm input,
+select {
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+}
+
+.updateDetailsForm label {
+    margin-bottom: 0.5em;
+}
+
+.updateDetailsForm button {
+    border: none;
+    background-color: rgb(255, 72, 0);
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2em auto;
+    cursor: pointer;
 }
