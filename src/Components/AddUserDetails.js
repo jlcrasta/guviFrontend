@@ -96,8 +96,8 @@ export class AddUserDetails extends Component {
                                 id='mobile'
                                 name='mobile'
                                 placeholder='mobile'
-                                max="10"
-                                min={10}
+                                maxLength={10}
+                                minLength={10}
                                 required
                                 value={mobile}
                                 onChange={this.changeHandler} />
